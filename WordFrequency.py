@@ -18,9 +18,7 @@ def main():
             wordStr = wordStr.replace(';', '')
 
             try:
-                if wordDict[wordStr]:
-                    wordDict[wordStr] += 1
-
+                wordDict[wordStr] += 1
             except:
                 wordDict[wordStr] = 1
 

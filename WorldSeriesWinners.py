@@ -19,7 +19,7 @@ def main():
 
         year += 1
 
-    userYear = input('Pick a year in between 1903 and 2009: \n')
+    userYear = input('Pick a year in between 1903 and 2008: \n')
 
     if YearsDict[int(userYear)] != 'n/a':
         print('Winning team in ' + str(userYear) + ': ' + str(YearsDict[int(userYear)]))
